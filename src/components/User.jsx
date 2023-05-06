@@ -1,8 +1,17 @@
 import React from 'react'
+import logo from '../images/logo.jpg'
 
 const User = () => {
   return (
-    <div>User</div>
+    <div className='User'>
+      <div className='logo'>
+        <img src={logo} alt='logo'/>
+      </div>
+      <div className='info'>
+        <p>Amit Mandal</p>
+        <a href='#'> Logout</a>
+      </div>
+    </div>
   )
 }
 
